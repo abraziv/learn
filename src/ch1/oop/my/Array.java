@@ -6,5 +6,9 @@ public class Array {
 	public Array(int[] arr){
 		this.arr = arr;
 	}
-
+	
+	public Array create(){
+		
+	}
+	
 }

@@ -4,7 +4,7 @@ import java.lang.Math;
 
 public class Number {
 
-	// создаём переменную VALUE типа ИНТ
+	// создаём переменную VALUE типа double
 	private double value;
 	
 	// создаём конструктор
