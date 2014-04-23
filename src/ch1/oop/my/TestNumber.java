@@ -1,7 +1,7 @@
 package ch1.oop.my;
 
 public class TestNumber {
-
+	// zdes ne vidit main
 	public static void main (String[] args) {
 		
 		Number n1 = new Number(3);
