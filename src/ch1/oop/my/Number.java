@@ -2,10 +2,10 @@ package ch1.oop.my;
 
 import java.lang.Math;
 
-public class Number {
+public final class Number {
 
 	// создаём переменную VALUE типа double
-	private double value;
+	private final double value;
 	
 	// создаём конструктор
 	public Number (double num){
@@ -14,9 +14,7 @@ public class Number {
 	public void print(){
 		System.out.println(value);
 	}
-	//Создаём конструктор по умолчанию
-	public Number(){
-	}
+	
 	
 	// создаём метод который возвращает значение ВАЛЮЕ типа ИНТ
 	public double getValue(){

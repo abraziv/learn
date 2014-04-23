@@ -2,7 +2,7 @@ package ch1.oop.my;
 
 public class TestNumber {
 
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 		
 		Number n1 = new Number(3);
 		Number n2 = new Number(6);
